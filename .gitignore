@@ -1,5 +1,4 @@
 .DS_Store
-.php-cs-fixer.cache
-.phpunit.result.cache
 composer.lock
+/.cache/
 /vendor/

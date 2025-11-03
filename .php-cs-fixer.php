@@ -1,7 +1,7 @@
 <?php
 
 return new PhpCsFixer\Config()
-    ->setCacheFile('.php-cs-fixer.cache')
+    ->setCacheFile('.cache/php-cs-fixer/.php-cs-fixer.cache')
     ->setFinder(
         PhpCsFixer\Finder::create()
             ->files()

@@ -8,3 +8,5 @@ parameters:
     phpVersion: 80400
 
     reportUnmatchedIgnoredErrors: true
+
+    tmpDir: .cache/phpstan
