@@ -1,0 +1,38 @@
+{
+    "name": "lithiumwp/lithium-framework",
+    "description": "A modern PHP framework for building WordPress plugins.",
+    "type": "library",
+    "keywords": ["framework", "lithium", "wordpress"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Hadjar",
+            "email": "mark.hadjar@lithiumwp.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/lithiumwp/lithium-framework/issues",
+        "source": "https://github.com/lithiumwp/lithium-framework"
+    },
+    "require": {
+        "php": "^8.4"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Lithium\\Framework\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lithium\\Framework\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "scripts": {}
+}
