@@ -1,0 +1,10 @@
+parameters:
+    level: max
+
+    paths:
+        - src
+        - tests
+
+    phpVersion: 80400
+
+    reportUnmatchedIgnoredErrors: true
